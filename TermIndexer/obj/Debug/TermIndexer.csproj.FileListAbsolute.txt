@@ -1,0 +1,2 @@
+c:\users\nourelhajj1996\documents\visual studio 2015\Projects\TermIndexer\TermIndexer\bin\Debug\TermIndexer.exe.config
+C:\Users\nourelhajj1996\documents\visual studio 2015\Projects\TermIndexer\TermIndexer\obj\Debug\TermIndexer.csprojResolveAssemblyReference.cache
