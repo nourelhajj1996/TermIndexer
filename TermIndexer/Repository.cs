@@ -10,6 +10,13 @@ namespace TermIndexer
     {
         TermIndexerDBDataContext db = new TermIndexerDBDataContext();
 
+        public IQueryable<string> getAllWordsFromDB()
+        {
+            var allWords = from t in db.tblTerms select t.term;
+
+            return allWords;
+        }
+
         public void InsertWordsToDB(string word)
         {
                 tblTerm term = new tblTerm();
